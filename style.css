@@ -13,6 +13,11 @@ body{
     max-width: 600px;
     margin: auto;
 }
+
+hr{
+    margin: 2rem;
+}
+
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -27,4 +32,35 @@ body{
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
 }
+
+.unordered-list{
+    list-style: none;
+}
+.inline-list-item{
+    display: inline;
+    padding: 0rem .5rem;
+}
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+.nav-list{
+    text-align: right;
+    /* padding: 1rem; */
+}
+.nav-brand{
+    /* padding: 1rem; */
+    font-weight: bold;
+}
+/* css tricks website is bible for css */
 /* we will be using tailwind css colors for theme color */
+/* for reverse ordering the list just add 'reversed' in html only */
