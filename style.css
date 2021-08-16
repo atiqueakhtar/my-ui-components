@@ -77,6 +77,7 @@ hr{
 }
 .hero .hero-heading{
     color: var(--gray-color);
+    text-align: center;
 }
 
 .section h3{
@@ -89,6 +90,22 @@ hr{
 .section-ow{
     background-color: var(--off-white-color);
     padding: 2rem 1rem;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 1rem 1rem;
+    border-top-right-radius: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.footer .link{
+    color: white;
+    text-align: center;
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
 /* css tricks website is bible for css */
 /* we will be using tailwind css colors for theme color */
